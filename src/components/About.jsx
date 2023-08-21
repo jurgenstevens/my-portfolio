@@ -1,10 +1,13 @@
-import React from 'react';
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
+// eslint-disable-next-line react-refresh/only-export-components
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <motion.div
@@ -30,19 +33,14 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>About Me</p>
+        <h2 className={styles.sectionHeadText}>My Expertise.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Highly motivated Full Stack Developer with a passion for crafting efficient and scalable web applications. Skilled in MERN Stack development, code reviews, and classroom leadership from experience as a Software Engineering Instructional Assistant at General Assembly. Equally adept in front-end and back-end development, I am dedicated to delivering robust and user-centric solutions. Seeking rewarding opportunities to contribute my expertise in both development and mentoring to drive innovation and deliver exceptional user experiences.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -54,4 +52,5 @@ const About = () => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(About, 'about');
