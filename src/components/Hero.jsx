@@ -1,8 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { jurgen, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -42,7 +41,7 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Jurgen
+                Jurgen Stevens
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
@@ -79,8 +78,14 @@ const Hero = () => {
             </div>
           </a>
         </div>
-
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
+          <img
+              className="absolute bottom-0 ml-[0vw] 
+              lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[73vw]
+              sm:h-[90vh] md:h-[70vh] xl:h-[50vh]"
+              src={jurgen}
+              alt="jurgen"
+            />
         <div>
         </div>
       </section>
