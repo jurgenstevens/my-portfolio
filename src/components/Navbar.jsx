@@ -21,15 +21,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <p className="text-eerieBlack text-[48px] font-bold font-arenq uppercase tracking-[1px] cursor-pointer">JS</p>
-
-
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
-          <img
-            src={logotext}
-            alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          />
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
