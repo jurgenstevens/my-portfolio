@@ -22,7 +22,6 @@ import {
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
@@ -146,7 +145,7 @@ const experiences = [
   },
   {
     title: 'Freelance React Software Engineer',
-    company_name: 'Garage Builders Plus, Inc.',
+    company_name: 'Garage Builders Plus',
     icon: dcc,
     iconBg: '#333333',
     date: 'March 2023 - Present',

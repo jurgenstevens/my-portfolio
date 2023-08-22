@@ -46,7 +46,7 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Full Stack Software Engineer<br className="sm:block hidden" />
-              Project focused developer utilizing JavaScript, Python, C#, React.js, .NET and Django.
+              Project focused developer utilizing JavaScript, C#, Python, React.js, .NET and Django.
             </p>
           </div>
           <div
