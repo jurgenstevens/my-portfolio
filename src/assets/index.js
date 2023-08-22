@@ -24,7 +24,10 @@ import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
 import css from './tech/css.png';
-import docker from './tech/docker.png';
+import python from './tech/python.png';
+import django from './tech/django.png';
+import csharp from './tech/csharp.png';
+import dotnet from './tech/dotnet.png';
 import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
@@ -73,7 +76,10 @@ export {
   send,
   sendHover,
   css,
-  docker,
+  python,
+  django,
+  csharp,
+  dotnet,
   figma,
   git,
   graphql,

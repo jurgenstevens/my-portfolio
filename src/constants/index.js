@@ -8,16 +8,16 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   git,
-  figma,
-  docker,
+  python,
+  django,
+  csharp,
+  dotnet,
+  komikult,
   postgresql,
   rubyrails,
-  graphql,
-  komikult,
   leaderboard,
   math,
   movie,
@@ -80,12 +80,16 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: "Python",
+    icon: python
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: "C#",
+    icon: csharp
+  },
+  {
+    name: 'React JS',
+    icon: reactjs,
   },
   {
     name: 'Tailwind CSS',
@@ -96,12 +100,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Django',
+    icon: django
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: ".NET",
+    icon: dotnet
+  },
+  {
+    name: 'Rails',
+    icon: rubyrails,
   },
   {
     name: 'postgresql',
@@ -110,15 +118,7 @@ const technologies = [
   {
     name: 'git',
     icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
@@ -127,7 +127,7 @@ const experiences = [
     company_name: 'Palmolive Condominiums',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Oct 2020 - June 2021',
+    date: 'Oct 2020 - Jun 2021',
   },
   {
     title: 'Full Stack Software Engineer Instructor Assistant',
@@ -141,14 +141,14 @@ const experiences = [
     company_name: 'General Assembly',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'June 2023 - August 2023',
+    date: 'Jun 2023 - Aug 2023',
   },
   {
     title: 'Freelance React Software Engineer',
     company_name: 'Garage Builders Plus',
     icon: dcc,
     iconBg: '#333333',
-    date: 'March 2023 - Present',
+    date: 'Mar 2023 - Present',
   },
 ];
 
