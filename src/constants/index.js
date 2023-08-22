@@ -155,8 +155,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'uCommute',
+    description: 'A mobile application for Chicago transit that shows real-time arrival schedules of trains at stations for users.',
     tags: [
       {
         name: 'react',
@@ -172,43 +172,39 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/jurgenstevens/ucommute-front',
+    demo: 'https://ucommute.netlify.app/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Garage Builders Plus',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'An informative platform for a garage building company based in Chicago, Illinois. It provides visitors with company information, an about page, and showcases a gallery of the company\'s previous projects..',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient',
-      },
+      }
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/jurgenstevens/garage-builders-plus',
+    demo: 'https://garagebuilderspluschi.netlify.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Hillbomber',
+    description: 'An interactive experience created using HTML Canvas, JavaScript, jQuery, and a combination of functional and object-oriented programming paradigms. In this game, you navigate the streets of San Francisco on a skateboard, skillfully avoiding obstacles like potholes, dogs, and cars.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'javascript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'html canvas',
         color: 'green-text-gradient',
       },
       {
@@ -217,43 +213,43 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/jurgenstevens/hillbomber',
+    demo: 'https://jurgenstevens.github.io/hillbomber/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Archer Skateshop',
+    description: `Crafted as an e-commerce platform specializing in skateboarding, this project was meticulously constructed using the robust trio of Bootstrap, Javascript, and React.js.`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: 'javascript',
+        color: 'blue-text-gradient',
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: 'bootstrap',
+        color: 'purple-text-gradient',
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/jurgenstevens/archer-skateshop',
+    demo: 'https://archerskateshop.netlify.app/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Deciphr',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'A user-friendly application that allows you to decipher and compare lyrical insights with others. Users can immerse themselves in the world of music input and save lyrical guesses, fostering a sense of community and camaraderie in unraveling the mysteries of lyrics.',
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: 'python',
+        color: 'green-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'django',
         color: 'green-text-gradient',
       },
       {
@@ -262,8 +258,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/jurgenstevens/deciphr',
+    demo: 'https://deciphr.onrender.com/',
   },
 ];
 
