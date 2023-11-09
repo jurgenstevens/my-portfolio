@@ -5,8 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    chunkSizeWarningLimit: 1600,
-    assetsInlineLimit: '2048',
+    assetsInlineLimit: '999999999999',
     rollupOptions: {
         output:{
             manualChunks(id) {
@@ -17,7 +16,7 @@ export default defineConfig({
         }
     },
     optimizeDeps: {
-      include: ['large-module']
+      include: ['three-824df395.js']
     }
 }
 })

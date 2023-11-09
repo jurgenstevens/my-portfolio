@@ -1,32 +1,14 @@
 import {
-  frontend,
-  backend,
-  ux,
-  prototyping,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
-  git,
-  python,
-  django,
-  csharp,
-  dotnet,
   komikult,
-  postgresql,
-  rubyrails,
   leaderboard,
   math,
   movie,
   nyeusi,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
 } from '../assets';
+
+const icons = {
+  frontend: "../../src/assets/icons/frontend.png",
+}
 
 export const navLinks = [
   {
@@ -46,78 +28,78 @@ export const navLinks = [
 const services = [
   {
     title: 'Frontend Developer',
-    icon: frontend,
+    icon: "../../src/assets/icons/frontend.png",
   },
   {
     title: 'Backend Developer',
-    icon: backend,
+    icon: "../../src/assets/icons/backend.png",
   },
   {
     title: 'UI/UX Design',
-    icon: ux,
+    icon: "../../src/assets/icons/ux.png",
   },
   {
     title: 'Software Engineering Instruction',
-    icon: prototyping,
+    icon: "../../src/assets/icons/prototyping.png",
   },
 ];
 
 const technologies = [
   {
     name: 'HTML 5',
-    icon: html,
+    icon: "../../src/assets/tech/html.png",
   },
   {
     name: 'CSS 3',
-    icon: css,
+    icon: "../../src/assets/tech/css.png",
   },
   {
     name: 'JavaScript',
-    icon: javascript,
+    icon: "../../src/assets/tech/javascript.png",
   },
   {
     name: 'TypeScript',
-    icon: typescript,
+    icon: "../../src/assets/tech/typescript.png",
   },
   {
     name: "Python",
-    icon: python
+    icon: "../../src/assets/tech/python.png"
   },
   {
     name: "C#",
-    icon: csharp
+    icon: "../../src/assets/tech/csharp.png"
   },
   {
     name: 'React JS',
-    icon: reactjs,
+    icon: "../../src/assets/tech/reactjs.png",
   },
   {
     name: 'Tailwind CSS',
-    icon: tailwind,
+    icon: "../../src/assets/tech/tailwind.png",
   },
   {
     name: 'Node JS',
-    icon: nodejs,
+    icon: "../../src/assets/tech/nodejs.png",
   },
   {
     name: 'Django',
-    icon: django
+    icon: "../../src/assets/tech/django.png"
   },
   {
     name: ".NET",
-    icon: dotnet
+    icon: "../../src/assets/tech/dotnet.png"
   },
   {
     name: 'Rails',
-    icon: rubyrails,
+    icon: "../../src/assets/tech/rubyrails.png",
   },
   {
     name: 'postgresql',
-    icon: postgresql,
+    icon: "../../src/assets/tech/postgresql.png",
   },
   {
     name: 'git',
-    icon: git,
+    icon: "../../src/assets/tech/git.png",
   }
 ];
 
@@ -125,28 +107,28 @@ const experiences = [
   {
     title: 'Doorman',
     company_name: 'Palmolive Condominiums',
-    icon: coverhunt,
+    icon: "../../src/assets/company/coverhunt.png",
     iconBg: '#333333',
     date: 'Oct 2020 - Jun 2021',
   },
   {
     title: 'Full Stack Software Engineer Instructor Assistant',
     company_name: 'General Assembly',
-    icon: microverse,
+    icon: "../../src/assets/company/microverse.png",
     iconBg: '#333333',
     date: 'Mar 2021 - Present',
   },
   {
     title: 'Software Documentation Engineer',
     company_name: 'General Assembly',
-    icon: kelhel,
+    icon: "../../src/assets/company/kelhel.png",
     iconBg: '#333333',
     date: 'Jun 2023 - Aug 2023',
   },
   {
     title: 'Freelance React Software Engineer',
     company_name: 'Garage Builders Plus',
-    icon: dcc,
+    icon: "../../src/assets/company/dcc.png",
     iconBg: '#333333',
     date: 'Mar 2023 - Present',
   },

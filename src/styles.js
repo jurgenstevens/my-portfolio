@@ -30,6 +30,11 @@ const styles = {
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
   sectionSubTextLight:
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
+
+  // Added styles for the technology badges
+  techBadge: 'flex flex-col items-center',
+  techIcon: 'w-20 h-20 object-cover', // Adjust the width and height as needed
+  techName: 'mt-2 text-sm',
 };
 
 export { styles };
