@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { send, sendHover } from '../../dist/assets/index.js';
+import { send, sendHover } from '../../public/index.js';
 
 const Contact = () => {
   const formRef = useRef();

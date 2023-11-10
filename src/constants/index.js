@@ -16,78 +16,78 @@ export const navLinks = [
 const services = [
   {
     title: 'Frontend Developer',
-    icon: "../../dist/assets/icons/frontend.png",
+    icon: "/icons/frontend.png",
   },
   {
     title: 'Backend Developer',
-    icon: "../../dist/assets/icons/backend.png",
+    icon: "/icons/backend.png",
   },
   {
     title: 'UI/UX Design',
-    icon: "../../dist/assets/icons/ux.png",
+    icon: "/icons/ux.png",
   },
   {
     title: 'Software Engineering Instruction',
-    icon: "../../dist/assets/icons/prototyping.png",
+    icon: "/icons/prototyping.png",
   },
 ];
 
 const technologies = [
   {
     name: 'HTML 5',
-    icon: "../../dist/assets/tech/html.png",
+    icon: "./tech/html.png",
   },
   {
     name: 'CSS 3',
-    icon: "../../dist/assets/tech/css.png",
+    icon: "./tech/css.png",
   },
   {
     name: 'JavaScript',
-    icon: "../../dist/assets/tech/javascript.png",
+    icon: "./tech/javascript.png",
   },
   {
     name: 'TypeScript',
-    icon: "../../dist/assets/tech/typescript.png",
+    icon: "./tech/typescript.png",
   },
   {
     name: "Python",
-    icon: "../../dist/assets/tech/python.png"
+    icon: "./tech/python.png"
   },
   {
     name: "C#",
-    icon: "../../dist/assets/tech/csharp.png"
+    icon: "./tech/csharp.png"
   },
   {
     name: 'React JS',
-    icon: "../../dist/assets/tech/reactjs.png",
+    icon: "./tech/reactjs.png",
   },
   {
     name: 'Tailwind CSS',
-    icon: "../../dist/assets/tech/tailwind.png",
+    icon: "./tech/tailwind.png",
   },
   {
     name: 'Node JS',
-    icon: "../../dist/assets/tech/nodejs.png",
+    icon: "./tech/nodejs.png",
   },
   {
     name: 'Django',
-    icon: "../../dist/assets/tech/django.png"
+    icon: "./tech/django.png"
   },
   {
     name: ".NET",
-    icon: "../../dist/assets/tech/dotnet.png"
+    icon: "./tech/dotnet.png"
   },
   {
     name: 'Rails',
-    icon: "../../dist/assets/tech/rubyrails.png",
+    icon: "./tech/rubyrails.png",
   },
   {
     name: 'postgresql',
-    icon: "../../dist/assets/tech/postgresql.png",
+    icon: "./tech/postgresql.png",
   },
   {
     name: 'git',
-    icon: "../../dist/assets/tech/git.png",
+    icon: "./tech/git.png",
   }
 ];
 
@@ -141,7 +141,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "../../dist/assets/projects/komikult.png",
+    image: "/projects/komikult.png",
     repo: 'https://github.com/jurgenstevens/ucommute-front',
     demo: 'https://ucommute.netlify.app/',
   },
@@ -160,7 +160,7 @@ const projects = [
         color: 'pink-text-gradient',
       }
     ],
-    image: "../../dist/assets/projects/leaderboard.png",
+    image: "/projects/leaderboard.png",
     repo: 'https://github.com/jurgenstevens/garage-builders-plus',
     demo: 'https://garagebuilderspluschi.netlify.app/',
   },
@@ -182,7 +182,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "../../dist/assets/projects/math-magicians.png",
+    image: "/projects/math-magicians.png",
     repo: 'https://github.com/jurgenstevens/hillbomber',
     demo: 'https://jurgenstevens.github.io/hillbomber/',
   },
@@ -204,7 +204,7 @@ const projects = [
         color: 'purple-text-gradient',
       },
     ],
-    image: "../../dist/assets/projects/movie-metro.png",
+    image: "/projects/movie-metro.png",
     repo: 'https://github.com/jurgenstevens/archer-skateshop',
     demo: 'https://archerskateshop.netlify.app/',
   },
@@ -227,7 +227,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "../../dist/assets/projects/nyeusi.png",
+    image: "/projects/nyeusi.png",
     repo: 'https://github.com/jurgenstevens/deciphr',
     demo: 'https://deciphr.onrender.com/',
   },

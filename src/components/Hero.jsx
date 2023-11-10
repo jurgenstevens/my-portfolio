@@ -7,14 +7,14 @@ const Hero = () => {
     <>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src="../../dist/assets/backgrounds/bw-map.jpeg"
+          src="/backgrounds/bw-map.jpeg"
           alt="world map"
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src="../../dist/assets/backgrounds/bw-map.jpeg"
+          src="/backgrounds/bw-map.jpeg"
           alt="world map"
           className="w-full h-full sm:hidden block object-cover"
         />
