@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { jurgen } from '../../dist/assets/index.js'
 
 const Hero = () => {
   return (
@@ -81,7 +80,7 @@ const Hero = () => {
               className="absolute bottom-0 ml-[0vw] 
               lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[73vw]
               sm:h-[0vh] md:h-[0vh] xl:h-[45vh]"
-              src="../../dist/assets/personal/jurgen.png"
+              src="/personal/jurgen.png"
               alt="jurgen"
             />
         <div>

@@ -12,7 +12,7 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
-import jurgen from './personal/jurgen.png'
+// import jurgen from './personal/jurgen.png'
 
 export {
   bwmap,
@@ -27,6 +27,5 @@ export {
   resume,
   send,
   sendHover,
-  github,
-  jurgen
+  github
 };
