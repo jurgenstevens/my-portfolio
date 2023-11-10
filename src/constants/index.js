@@ -1,15 +1,3 @@
-import {
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-} from '../assets';
-
-const icons = {
-  frontend: "../../src/assets/icons/frontend.png",
-}
-
 export const navLinks = [
   {
     id: 'about',
@@ -153,7 +141,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: "../../src/assets/projects/komikult.png",
     repo: 'https://github.com/jurgenstevens/ucommute-front',
     demo: 'https://ucommute.netlify.app/',
   },
@@ -172,7 +160,7 @@ const projects = [
         color: 'pink-text-gradient',
       }
     ],
-    image: leaderboard,
+    image: "../../src/assets/projects/leaderboard.png",
     repo: 'https://github.com/jurgenstevens/garage-builders-plus',
     demo: 'https://garagebuilderspluschi.netlify.app/',
   },
@@ -194,7 +182,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
+    image: "../../src/assets/projects/math-magicians.png",
     repo: 'https://github.com/jurgenstevens/hillbomber',
     demo: 'https://jurgenstevens.github.io/hillbomber/',
   },
@@ -216,7 +204,7 @@ const projects = [
         color: 'purple-text-gradient',
       },
     ],
-    image: movie,
+    image: "../../src/assets/projects/movie-metro.png",
     repo: 'https://github.com/jurgenstevens/archer-skateshop',
     demo: 'https://archerskateshop.netlify.app/',
   },
@@ -239,7 +227,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
+    image: "../../src/assets/projects/nyeusi.png",
     repo: 'https://github.com/jurgenstevens/deciphr',
     demo: 'https://deciphr.onrender.com/',
   },

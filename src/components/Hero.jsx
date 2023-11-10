@@ -1,21 +1,21 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { jurgen, bwmap, worldmap } from '../assets';
+import { jurgen } from '../assets'
 
 const Hero = () => {
   return (
     <>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src={bwmap}
+          src="../../src/assets/backgrounds/bw-map.jpeg"
           alt="world map"
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src={worldmap}
+          src="../../src/assets/backgrounds/bw-map.jpeg"
           alt="world map"
           className="w-full h-full sm:hidden block object-cover"
         />
@@ -81,7 +81,7 @@ const Hero = () => {
               className="absolute bottom-0 ml-[0vw] 
               lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[73vw]
               sm:h-[0vh] md:h-[0vh] xl:h-[45vh]"
-              src={jurgen}
+              src="../../src/assets/personal/jurgen.png"
               alt="jurgen"
             />
         <div>
