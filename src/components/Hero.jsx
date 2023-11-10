@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { jurgen } from '../../dist/assets/personal/jurgen.png'
+import { jurgen } from '../../dist/assets/index.js'
 
 const Hero = () => {
   return (

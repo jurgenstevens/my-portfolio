@@ -16,78 +16,78 @@ export const navLinks = [
 const services = [
   {
     title: 'Frontend Developer',
-    icon: "../../src/assets/icons/frontend.png",
+    icon: "../../dist/assets/icons/frontend.png",
   },
   {
     title: 'Backend Developer',
-    icon: "../../src/assets/icons/backend.png",
+    icon: "../../dist/assets/icons/backend.png",
   },
   {
     title: 'UI/UX Design',
-    icon: "../../src/assets/icons/ux.png",
+    icon: "../../dist/assets/icons/ux.png",
   },
   {
     title: 'Software Engineering Instruction',
-    icon: "../../src/assets/icons/prototyping.png",
+    icon: "../../dist/assets/icons/prototyping.png",
   },
 ];
 
 const technologies = [
   {
     name: 'HTML 5',
-    icon: "../../src/assets/tech/html.png",
+    icon: "../../dist/assets/tech/html.png",
   },
   {
     name: 'CSS 3',
-    icon: "../../src/assets/tech/css.png",
+    icon: "../../dist/assets/tech/css.png",
   },
   {
     name: 'JavaScript',
-    icon: "../../src/assets/tech/javascript.png",
+    icon: "../../dist/assets/tech/javascript.png",
   },
   {
     name: 'TypeScript',
-    icon: "../../src/assets/tech/typescript.png",
+    icon: "../../dist/assets/tech/typescript.png",
   },
   {
     name: "Python",
-    icon: "../../src/assets/tech/python.png"
+    icon: "../../dist/assets/tech/python.png"
   },
   {
     name: "C#",
-    icon: "../../src/assets/tech/csharp.png"
+    icon: "../../dist/assets/tech/csharp.png"
   },
   {
     name: 'React JS',
-    icon: "../../src/assets/tech/reactjs.png",
+    icon: "../../dist/assets/tech/reactjs.png",
   },
   {
     name: 'Tailwind CSS',
-    icon: "../../src/assets/tech/tailwind.png",
+    icon: "../../dist/assets/tech/tailwind.png",
   },
   {
     name: 'Node JS',
-    icon: "../../src/assets/tech/nodejs.png",
+    icon: "../../dist/assets/tech/nodejs.png",
   },
   {
     name: 'Django',
-    icon: "../../src/assets/tech/django.png"
+    icon: "../../dist/assets/tech/django.png"
   },
   {
     name: ".NET",
-    icon: "../../src/assets/tech/dotnet.png"
+    icon: "../../dist/assets/tech/dotnet.png"
   },
   {
     name: 'Rails',
-    icon: "../../src/assets/tech/rubyrails.png",
+    icon: "../../dist/assets/tech/rubyrails.png",
   },
   {
     name: 'postgresql',
-    icon: "../../src/assets/tech/postgresql.png",
+    icon: "../../dist/assets/tech/postgresql.png",
   },
   {
     name: 'git',
-    icon: "../../src/assets/tech/git.png",
+    icon: "../../dist/assets/tech/git.png",
   }
 ];
 
@@ -95,28 +95,28 @@ const experiences = [
   {
     title: 'Doorman',
     company_name: 'Palmolive Condominiums',
-    icon: "../../src/assets/company/coverhunt.png",
+    icon: "../../dist/assets/company/coverhunt.png",
     iconBg: '#333333',
     date: 'Oct 2020 - Jun 2021',
   },
   {
     title: 'Full Stack Software Engineer Instructor Assistant',
     company_name: 'General Assembly',
-    icon: "../../src/assets/company/microverse.png",
+    icon: "../../dist/assets/company/microverse.png",
     iconBg: '#333333',
     date: 'Mar 2021 - Present',
   },
   {
     title: 'Software Documentation Engineer',
     company_name: 'General Assembly',
-    icon: "../../src/assets/company/kelhel.png",
+    icon: "../../dist/assets/company/kelhel.png",
     iconBg: '#333333',
     date: 'Jun 2023 - Aug 2023',
   },
   {
     title: 'Freelance React Software Engineer',
     company_name: 'Garage Builders Plus',
-    icon: "../../src/assets/company/dcc.png",
+    icon: "../../dist/assets/company/dcc.png",
     iconBg: '#333333',
     date: 'Mar 2023 - Present',
   },
@@ -141,7 +141,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "../../src/assets/projects/komikult.png",
+    image: "../../dist/assets/projects/komikult.png",
     repo: 'https://github.com/jurgenstevens/ucommute-front',
     demo: 'https://ucommute.netlify.app/',
   },
@@ -160,7 +160,7 @@ const projects = [
         color: 'pink-text-gradient',
       }
     ],
-    image: "../../src/assets/projects/leaderboard.png",
+    image: "../../dist/assets/projects/leaderboard.png",
     repo: 'https://github.com/jurgenstevens/garage-builders-plus',
     demo: 'https://garagebuilderspluschi.netlify.app/',
   },
@@ -182,7 +182,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "../../src/assets/projects/math-magicians.png",
+    image: "../../dist/assets/projects/math-magicians.png",
     repo: 'https://github.com/jurgenstevens/hillbomber',
     demo: 'https://jurgenstevens.github.io/hillbomber/',
   },
@@ -204,7 +204,7 @@ const projects = [
         color: 'purple-text-gradient',
       },
     ],
-    image: "../../src/assets/projects/movie-metro.png",
+    image: "../../dist/assets/projects/movie-metro.png",
     repo: 'https://github.com/jurgenstevens/archer-skateshop',
     demo: 'https://archerskateshop.netlify.app/',
   },
@@ -227,7 +227,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "../../src/assets/projects/nyeusi.png",
+    image: "../../dist/assets/projects/nyeusi.png",
     repo: 'https://github.com/jurgenstevens/deciphr',
     demo: 'https://deciphr.onrender.com/',
   },
