@@ -76,13 +76,15 @@ const Hero = () => {
           </a>
         </div>
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-          <img
-              className="absolute bottom-0 ml-[0vw] 
-              lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[73vw]
-              sm:h-[0vh] md:h-[0vh] xl:h-[45vh]"
-              src="/personal/jurgen.png"
-              alt="jurgen"
-            />
+        <img
+          className="
+            absolute bottom-0 right-0
+            h-[30vh] sm:h-[35vh] md:h-[40vh] xl:h-[45vh]
+            mr-5 sm:mr-8 md:mr-10 xl:mr-16
+          "
+          src="/personal/jurgen.png"
+          alt="jurgen"
+        />
         <div>
         </div>
       </section>
