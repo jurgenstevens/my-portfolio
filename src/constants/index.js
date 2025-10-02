@@ -92,33 +92,27 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: 'Doorman',
-    company_name: 'Palmolive Condominiums',
-    icon: "/company/coverhunt.png",
-    iconBg: '#333333',
-    date: 'Oct 2020 - Jun 2021',
-  },
+
   {
     title: 'Full Stack Software Engineer Instructor Assistant',
     company_name: 'General Assembly',
     icon: "/company/microverse.png",
     iconBg: '#333333',
-    date: 'Mar 2021 - Present',
+    date: 'Mar 2021 - Oct 2024',
   },
   {
-    title: 'Software Documentation Engineer',
-    company_name: 'General Assembly',
-    icon: "/company/kelhel.png",
-    iconBg: '#333333',
-    date: 'Jun 2023 - Aug 2023',
-  },
-  {
-    title: 'Freelance React Software Engineer',
-    company_name: 'Garage Builders Plus',
-    icon: "/company/dcc.png",
+    title: 'Freelance Full Stack Software Engineer',
+    company_name: 'Self Employed',
+    icon: "/company/coverhunt.png",
     iconBg: '#333333',
     date: 'Mar 2023 - Present',
+  },
+    {
+    title: 'Product Manager',
+    company_name: 'Certiverse',
+    icon: "/company/certiverse.webp",
+    iconBg: '#070707',
+    date: 'Oct 2024 - Present',
   },
 ];
 
