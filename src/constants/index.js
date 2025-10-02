@@ -141,22 +141,26 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Garage Builders Plus',
+    name: 'Phil\'s Pizza',
     description:
-      'An informative platform for a garage building company based in Chicago, Illinois. It provides visitors with company information, an about page, and showcases a gallery of the company\'s previous projects..',
+      'A fully responsive web application for Phil’s Pizza, designed to showcase the restaurant’s menu, hours, and contact details. Built with React and Vite, it offers a seamless experience on both mobile and desktop, highlighting attention to responsive design and modern web development practices.',
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: 'python',
+        color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'django',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
         color: 'pink-text-gradient',
-      }
+      },
     ],
-    image: "/projects/leaderboard.png",
-    repo: 'https://github.com/jurgenstevens/garage-builders-plus',
-    demo: 'https://garagebuilderspluschi.netlify.app/',
+    image: "/projects/phils.png",
+    repo: 'https://github.com/jurgenstevens/phils-pizza',
+    demo: 'https://philspizzachicago.netlify.app/',
   },
   {
     id: 'project-3',
@@ -204,26 +208,22 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Phil\'s Pizza',
+        name: 'Garage Builders Plus',
     description:
-      'A fully responsive web application for Phil’s Pizza, designed to showcase the restaurant’s menu, hours, and contact details. Built with React and Vite, it offers a seamless experience on both mobile and desktop, highlighting attention to responsive design and modern web development practices.',
+      'An informative platform for a garage building company based in Chicago, Illinois. It provides visitors with company information, an about page, and showcases a gallery of the company\'s previous projects..',
     tags: [
       {
-        name: 'python',
-        color: 'green-text-gradient',
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: 'django',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
+        name: 'tailwind',
         color: 'pink-text-gradient',
-      },
+      }
     ],
-    image: "/projects/phils.png",
-    repo: 'https://github.com/jurgenstevens/phils-pizza',
-    demo: 'https://philspizzachicago.netlify.app/',
+    image: "/projects/leaderboard.png",
+    repo: 'https://github.com/jurgenstevens/garage-builders-plus',
+    demo: 'https://garagebuilderspluschi.netlify.app/',
   },
 ];
 
