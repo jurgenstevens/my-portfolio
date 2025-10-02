@@ -27,7 +27,7 @@ const services = [
     icon: "/icons/ux.png",
   },
   {
-    title: 'Software Engineering Instruction',
+    title: 'Product Management',
     icon: "/icons/prototyping.png",
   },
 ];
