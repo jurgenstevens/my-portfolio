@@ -94,7 +94,7 @@ const technologies = [
 const experiences = [
 
   {
-    title: 'Full Stack Software Engineer Instructor Assistant',
+    title: 'Software Engineer Instructor Assistant',
     company_name: 'General Assembly',
     icon: "/company/microverse.png",
     iconBg: '#333333',
