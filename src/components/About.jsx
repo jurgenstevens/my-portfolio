@@ -40,7 +40,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Highly motivated Full Stack Developer with a passion for crafting efficient and scalable web applications. Skilled in MERN Stack development, code reviews, and classroom leadership from experience as a Software Engineering Instructional Assistant at General Assembly. Equally adept in front-end and back-end development, I am dedicated to delivering robust and user-centric solutions. Seeking rewarding opportunities to contribute my expertise in both development and mentoring to drive innovation and deliver exceptional user experiences.
+        Full Stack Software Engineer with experience leading development on client-facing applications, instructing 300+ coding bootcamp students, and managing cross-functional teams as a Product Manager in a B2B SaaS platform. Skilled in the MERN stack, .NET, and cloud deployment. Known for high ownership, fast learning, and delivering real-world software.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
