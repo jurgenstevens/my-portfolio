@@ -210,9 +210,9 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Deciphr',
+    name: 'Phil\'s Pizza',
     description:
-      'A user-friendly application that allows you to decipher and compare lyrical insights with others. Users can immerse themselves in the world of music input and save lyrical guesses, fostering a sense of community and camaraderie in unraveling the mysteries of lyrics.',
+      'A fully responsive web application for Phil’s Pizza, designed to showcase the restaurant’s menu, hours, and contact details. Built with React and Vite, it offers a seamless experience on both mobile and desktop, highlighting attention to responsive design and modern web development practices.',
     tags: [
       {
         name: 'python',
@@ -227,9 +227,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "/projects/nyeusi.png",
-    repo: 'https://github.com/jurgenstevens/deciphr',
-    demo: 'https://deciphr.onrender.com/',
+    image: "/projects/phils.png",
+    repo: 'https://github.com/jurgenstevens/phils-pizza',
+    demo: 'https://philspizzachicago.netlify.app/',
   },
 ];
 
