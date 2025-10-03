@@ -37,8 +37,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-        {/* mobile */}
+          {/* mobile */}
         <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
           {toggle ? (
             <div
@@ -47,19 +46,21 @@ const Navbar = () => {
                   toggle ? 'menu-open' : 'menu-close'
                 }`}>
               <div className="flex justify-end">
-                <p className="text-eerieBlack text-[88px] font-bold font-arenq uppercase tracking-[1px] cursor-pointer">JS</p>
+                <p className="text-eerieBlack text-[28px] xs:text-[32px] sm:text-[36px] 
+                  font-bold font-arenq uppercase tracking-[1px] cursor-pointer">
+                  JS
+                </p>
               </div>
-              <ul
-                className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+              <ul className="list-none flex flex-col gap-6 items-start mt-16 ml-4">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
-                    className={`${
-                      active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
-                      uppercase tracking-[1px] cursor-pointer`}
+                    className={`
+                      ${active === nav.title ? 'text-french' : 'text-eerieBlack'}
+                      text-[22px] xs:text-[26px] sm:text-[28px] 
+                      font-bold font-arenq uppercase tracking-[1px] cursor-pointer
+                    `}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
@@ -69,15 +70,15 @@ const Navbar = () => {
                 ))}
               </ul>
             </div>
-          ) : (
-            <img
-              src={menu}
-              alt="menu"
-              className="w-[34px] h-[34px] object-contain cursor-pointer"
-              onClick={() => setToggle(!toggle)}
-            />
-          )}
-        </div>
+            ) : (
+              <img
+                src={menu}
+                alt="menu"
+                className="w-[34px] h-[34px] object-contain cursor-pointer"
+                onClick={() => setToggle(!toggle)}
+              />
+            )}
+          </div>
       </div>
     </nav>
   );
