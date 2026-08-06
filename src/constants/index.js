@@ -114,7 +114,7 @@ const experiences = [
 
 const projects = [
   {
-    id: 'project-6',
+    id: 'project-1',
     name: "Little Einstein's",
     description:
       "A responsive site for a Chicago-based childcare and after-school program, built with React. It walks families through programs, hours, and staff, and includes a contact form wired to EmailJS with reCAPTCHA so inquiries land directly in the owner's inbox.",
@@ -133,7 +133,7 @@ const projects = [
     demo: 'https://littleeinsteinsasc.com/',
   },
   {
-    id: 'project-7',
+    id: 'project-2',
     name: 'Corners',
     description:
       'A neighborhood marketplace app that connects three sides of a block: patrons request and vote on the products they want nearby, local businesses stock them, and distributors fulfill the orders. Built on the MERN stack with a React + Vite front end, an Express/Mongoose API, and an admin dashboard for managing it all.',
@@ -152,7 +152,7 @@ const projects = [
     demo: 'https://corners-app.netlify.app/',
   },
   {
-    id: 'project-1',
+    id: 'project-3',
     name: 'uCommute',
     description:
       'A mobile application for Chicago transit that shows real-time arrival schedules of trains at stations for users.',
@@ -175,7 +175,7 @@ const projects = [
     demo: 'https://ucommute.netlify.app/',
   },
   {
-    id: 'project-2',
+    id: 'project-4',
     name: "Phil's Pizza",
     description:
       'A fully responsive web application for Phil’s Pizza, designed to showcase the restaurant’s menu, hours, and contact details. Built with React and Vite, it offers a seamless experience on both mobile and desktop, highlighting attention to responsive design and modern web development practices.',
@@ -198,7 +198,7 @@ const projects = [
     demo: 'https://philspizzachicago.netlify.app/',
   },
   {
-    id: 'project-3',
+    id: 'project-5',
     name: 'Hillbomber',
     description:
       'An interactive experience created using HTML Canvas, JavaScript, jQuery, and a combination of functional and object-oriented programming paradigms. In this game, you navigate the streets of San Francisco on a skateboard, skillfully avoiding obstacles like potholes, dogs, and cars.',
