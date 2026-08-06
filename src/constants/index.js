@@ -38,7 +38,7 @@ const technologies = [
     icon: "./tech/html.png",
   },
   {
-    name: 'CSS 3',
+    name: 'CSS',
     icon: "./tech/css.png",
   },
   {
@@ -60,10 +60,6 @@ const technologies = [
   {
     name: 'React JS',
     icon: "./tech/reactjs.png",
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: "./tech/tailwind.png",
   },
   {
     name: 'Node JS',
@@ -118,9 +114,48 @@ const experiences = [
 
 const projects = [
   {
+    id: 'project-6',
+    name: "Little Einstein's",
+    description:
+      "A responsive site for a Chicago-based childcare and after-school program, built with React. It walks families through programs, hours, and staff, and includes a contact form wired to EmailJS with reCAPTCHA so inquiries land directly in the owner's inbox.",
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: '/projects/littleeinsteinsafc-b&w.png',
+    repo: '',
+    demo: 'https://littleeinsteinsasc.com/',
+  },
+  {
+    id: 'project-7',
+    name: 'Corners',
+    description:
+      'A neighborhood marketplace app that connects three sides of a block: patrons request and vote on the products they want nearby, local businesses stock them, and distributors fulfill the orders. Built on the MERN stack with a React + Vite front end, an Express/Mongoose API, and an admin dashboard for managing it all.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: '/projects/corners-b&w.png',
+    repo: '',
+    demo: 'https://corners-app.netlify.app/',
+  },
+  {
     id: 'project-1',
     name: 'uCommute',
-    description: 'A mobile application for Chicago transit that shows real-time arrival schedules of trains at stations for users.',
+    description:
+      'A mobile application for Chicago transit that shows real-time arrival schedules of trains at stations for users.',
     tags: [
       {
         name: 'react',
@@ -135,13 +170,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "/projects/komikult.png",
+    image: '/projects/komikult.png',
     repo: 'https://github.com/jurgenstevens/ucommute-front',
     demo: 'https://ucommute.netlify.app/',
   },
   {
     id: 'project-2',
-    name: 'Phil\'s Pizza',
+    name: "Phil's Pizza",
     description:
       'A fully responsive web application for Phil’s Pizza, designed to showcase the restaurant’s menu, hours, and contact details. Built with React and Vite, it offers a seamless experience on both mobile and desktop, highlighting attention to responsive design and modern web development practices.',
     tags: [
@@ -158,14 +193,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "/projects/phils.png",
+    image: '/projects/phils.png',
     repo: 'https://github.com/jurgenstevens/phils-pizza',
     demo: 'https://philspizzachicago.netlify.app/',
   },
   {
     id: 'project-3',
     name: 'Hillbomber',
-    description: 'An interactive experience created using HTML Canvas, JavaScript, jQuery, and a combination of functional and object-oriented programming paradigms. In this game, you navigate the streets of San Francisco on a skateboard, skillfully avoiding obstacles like potholes, dogs, and cars.',
+    description:
+      'An interactive experience created using HTML Canvas, JavaScript, jQuery, and a combination of functional and object-oriented programming paradigms. In this game, you navigate the streets of San Francisco on a skateboard, skillfully avoiding obstacles like potholes, dogs, and cars.',
     tags: [
       {
         name: 'javascript',
@@ -180,51 +216,12 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "/projects/math-magicians.png",
+    image: '/projects/math-magicians.png',
     repo: 'https://github.com/jurgenstevens/hillbomber',
     demo: 'https://jurgenstevens.github.io/hillbomber/',
   },
-  {
-    id: 'project-4',
-    name: 'Archer Skateshop',
-    description: `Crafted as an e-commerce platform specializing in skateboarding, this project was meticulously constructed using the robust trio of Bootstrap, Javascript, and React.js.`,
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'javascript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'bootstrap',
-        color: 'purple-text-gradient',
-      },
-    ],
-    image: "/projects/movie-metro.png",
-    repo: 'https://github.com/jurgenstevens/archer-skateshop',
-    demo: 'https://archerskateshop.netlify.app/',
-  },
-  {
-    id: 'project-5',
-        name: 'Garage Builders Plus',
-    description:
-      'An informative platform for a garage building company based in Chicago, Illinois. It provides visitors with company information, an about page, and showcases a gallery of the company\'s previous projects..',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      }
-    ],
-    image: "/projects/leaderboard.png",
-    repo: 'https://github.com/jurgenstevens/garage-builders-plus',
-    demo: 'https://garagebuilderspluschi.netlify.app/',
-  },
 ];
+
+export default projects;
 
 export { services, technologies, experiences, projects };

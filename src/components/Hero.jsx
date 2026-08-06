@@ -44,7 +44,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Full Stack Software Engineer | Product Manager<br className="sm:block hidden" />
+             Full Stack Software Engineer | Product Manager <br></br><br className="sm:block hidden" />
               Delivering end-to-end solutions with a focus on user needs and business impact, 
               experienced in JavaScript, React.js, Node.js, C#, .NET, Python, and Django.
             </p>
